@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    tools:context=".RegisterActivity">
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_margin="5dp"
+            android:textSize="10dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/loginconstraintlayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="32dp"
+                    android:orientation="vertical"
+
+                    android:paddingRight="10dp"
+                    android:paddingBottom="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                       android:text="@string/name_label_english"
+                        android:textSize="@dimen/twentysp"
+                        android:textStyle="normal"
+                        tools:layout_editor_absoluteY="50dp" />
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="25dp"
+                        android:maxLength="50"
+                        android:layout_marginEnd="8dp"
+
+                        android:background="@drawable/textbox_ui"
+                        android:drawableLeft="@drawable/ic_mobile"
+                        android:importantForAutofill="no"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+
+                        android:inputType="textCapSentences"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+                    <TextView
+                        android:id="@+id/tv_emailid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email_label_english"
+                        android:textSize="@dimen/twentysp"
+                        android:layout_marginTop="@dimen/twentydp"
+                        android:textStyle="normal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/et_name" />
+
+                    />
+                    <EditText
+                        android:id="@+id/et_emailid"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="@dimen/tendp"
+                        android:maxLength="50"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/textbox_ui"
+                        android:drawableLeft="@drawable/ic_mobile"
+                        android:drawablePadding="10dp"
+                        android:importantForAutofill="no"
+                        android:ems="10"
+
+                        android:inputType="textEmailAddress"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_emailid" />
+
+                    <TextView
+                        android:id="@+id/tv_Pin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pin_label_english"
+                        android:textSize="@dimen/twentysp"
+                        android:layout_marginTop="@dimen/twentydp"
+                        android:textStyle="normal"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="214dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/et_emailid"
+                        />
+                    <com.chaos.view.PinView
+                        android:id="@+id/otp_view"
+                        style="@style/PinWidget.PinView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="true"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberPassword"
+                        android:focusable="true"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+
+                        app:cursorColor="@color/colorPrimary"
+                        app:cursorWidth="2dp"
+                        app:itemCount="4"
+                        app:itemHeight="40dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_Pin"
+                        app:lineColor="@color/black"
+                        app:viewType="line" />
+
+
+
+                    <TextView
+                        android:id="@+id/tv_confirmPin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/confrimpin_label_english"
+                        android:textSize="@dimen/twentysp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="@dimen/twentydp"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="214dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/otp_view"
+                        />
+                    <com.chaos.view.PinView
+                        android:id="@+id/confirmotp_view"
+                        style="@style/PinWidget.PinView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="true"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberPassword"
+                        android:focusable="true"
+                        android:padding="5sp"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+
+                        app:cursorColor="@color/colorPrimary"
+                        app:cursorWidth="2dp"
+                        app:itemCount="4"
+                        app:itemHeight="40dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_confirmPin"
+                        app:lineColor="@color/black"
+                        app:viewType="line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_termsandconditions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/tendp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/confirmotp_view"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        >
+
+                        <androidx.appcompat.widget.AppCompatCheckBox
+                            android:id="@+id/cb_termsandconditions"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="I accept "
+                            ></TextView>
+                        <TextView
+                            android:id="@+id/tv_termsandconditions"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/dodger_blue"
+                            android:textStyle="bold"
+                            android:text="@string/terms_and_conditions"
+                            ></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_privacypolicy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/tendp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ll_termsandconditions"
+                        >
+
+                        <androidx.appcompat.widget.AppCompatCheckBox
+                            android:id="@+id/cb_privacypolicy"
+                            android:layout_marginLeft="8dp"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="I accept "
+                            ></TextView>
+                        <TextView
+                            android:id="@+id/tv_privacypolicy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/dodger_blue"
+                            android:textStyle="bold"
+                            android:text="Privacy Policy"
+                            ></TextView>
+                    </LinearLayout>
+                    <Button
+                        android:id="@+id/btn_lgoin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="36dp"
+                        android:layout_marginRight="36dp"
+                        android:background="@drawable/buttonui"
+
+                        android:drawablePadding="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/signinkare"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/ll_privacypolicy" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

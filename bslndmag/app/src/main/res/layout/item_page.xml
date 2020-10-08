@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="@dimen/fivedp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/fifteendp"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:scaleType="center" />
+
+            <!--    <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ivImage"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#FFFFFF"
+                android:textSize="32sp"
+                tools:text="Topic" />
+
+            <TextView
+                android:id="@+id/tvAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="324dp"
+                android:text="About Topic"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_below="@id/tvTitle" />-->
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btn_buy"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/tendp"
+        android:layout_marginLeft="@dimen/tendp"
+        android:layout_marginRight="@dimen/tendp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Purchase @40Rs-"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|bottom"
+
+        android:background="@drawable/buttongreenroundui"
+        />
+</FrameLayout>
+
+
+</LinearLayout>

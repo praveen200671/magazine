@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:gravity="top">
+        <animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+            android:drawable="@drawable/loadertwop"
+            android:pivotX="52%"
+            android:pivotY="52%" />
+    </item>
+</layer-list>

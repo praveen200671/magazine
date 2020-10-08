@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Search Magazine</string>
+    <string name="termsandconditions">termsandconditions</string>
+    <string name="str_home">HOME</string>
+    <string name="str_article">ARTICLE</string>
+    <string name="str_settings">SETTINGS</string>
+    <string name="changelanguage">changelanguage_english</string>
+
+    <string name="app_name">Cosmicgrace</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_sync">सिंक</string>
+    <string name="nav_dial_sync">डायल सिंक</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="pin_content_desc">PIN input field</string>
+    <string name="pin_label_text">PIN</string>
+
+    <!--    Labels-->
+    <string name="dashboard">डैशबोर्डं</string>
+    <string name="signin">कृपया साइन इन करें</string>
+    <string name="logout">लोग आउट</string>
+
+    <string name="setpin">पिन सेट करें</string>
+    <string name="mobileno">मोबाइल नंबर</string>
+    <string name="labelentermobileno">मोबाइल नंबर:</string>
+    <string name="labelinjection">टीका:</string>
+    <string name="enterpinnumber">पिन नम्बर</string>
+    <string name="reenterpinnumber">पिन नम्बर की पुष्टि करें</string>
+    <string name="forgotpin">पिन भूल गएं</string>
+    <string name="enterpasscode">Enter the passcode</string>
+    <string name="signinkare">Submit</string>
+    <string name="entermobileno">मोबाइल नंबर दर्ज करे</string>
+    <string name="entermobilenoormothername">मोबाइल नं या माता का नाम</string>
+    <string name="entermothername">मां का नाम</string>
+    <string name="labelentermothername">मां का नाम:</string>
+    <string name="motherage">माँ की उम्र</string>
+    <string name="label_motherage">माँ की उम्र:</string>
+    <string name="entermotherage">माँ की उम्र दर्ज करें</string>
+    <string name="enterchildname">बच्चे का नाम</string>
+    <string name="labelenterchildname">बच्चे का नाम:</string>
+    <string name="enterchilddob">बच्चे की जन्म तिथि</string>
+    <string name="selectashaname">आशा का नाम</string>
+    <string name="selectplace">स्थान का नाम</string>
+    <string name="selectinjectionname">टीकाकरण जो किया गया है</string>
+    <string name="todaydueinjectionname">आज के टीके</string>
+    <string name="futuredueinjectionname">भविष्य की वैक्सीन सूची</string>
+    <string name="vacinationdate">वैक्सीन की तारीख <!--(अगर आज की जाए तो खाली छोड़ दें)--></string>
+    <string name="motherentry">+ माँ की नई इंट्री करें</string>
+    <string name="searchmotherandchild">मोबाइल नंबर या माँ के नाम का उपयोग करके माँ की खोज करें</string>
+    <string name="searchmobileno">मोबाइल नंबर खोजें</string>
+    <string name="searchmobilenomother">सही मोबाइल नंबर या माँ का नाम खोजें</string>
+    <string name="securitypinscreen">सुरक्षा पिन सुविधा</string>
+    <string name="submit">इंट्री करें</string>
+    <string name="search">चेक करें </string>
+    <string name="headermasterdatasync">मास्टर डेटा सिंक करें</string>
+    <string name="headermotherdatasync">एनम का रिकॉर्ड अपडेट करें</string>
+    <string name="headerchilddatasync">बच्चे का डेटा सिंक</string>
+    <string name="headervaccinedchilddatasync">बच्चों का टीका अपडेट करें</string>
+    <string name="headeraddmotherdatasync">नयी माता का डाटा अपडेट करें</string>
+    <string name="updatevaccination">अपडेट करें</string>
+    <string name="Duelistheader">आज की टीकाकरण सूची!</string>
+    <string name="norecordfound">कोई रिकॉर्ड नहीं मिला</string>
+
+    <!--    //validations-->
+    <string name="entercorrectmobileno">सही मोबाइल नंबर दर्ज करे</string>
+    <string name="mobilenoalreadyexist">मोबाइल पहले से मौजूद है। कृपया खोज करें और अपडेट करें</string>
+    <string name="mobilenoalreadycaptured">इस मोबाइल, माँ और बच्चे का डेटा पहले से ही कब्जा कर लिया। कृपया सिंक करें।</string>
+    <string name="entercorrectmobilenoormothername">सही मोबाइल नंबर या माँ का नाम दर्ज करे</string>
+    <string name="dattasavedsuccessfully">डेटा सफलतापूर्वक सहेजा गया</string>
+    <string name="entercorrectmothername">सही माँ का नाम दर्ज करें</string>
+    <string name="entercorrectchildname">सही बच्चे का नाम दर्ज करें</string>
+    <string name="entercorrectchilddob">सही जन्म तिथि दर्ज करें</string>
+    <string name="injectiondatecannotbelessdob">टीके की तारीख जन्म की तारीख से कम नहीं हो सकती</string>
+    <string name="entercorrectinjectionname">सही इंजेक्शन नाम दर्ज करेंं</string>
+    <string name="selectcorrectashaname">आशा नाम का चयन करें</string>
+    <string name="selectcorrectplacename">जगह का नाम चुनेंं</string>
+
+    <string name="entercorrectinjectiondate">सही इंजेक्शन दिनांक दर्ज करेंं</string>
+    <string name="entercorrectpasscode">सही पासकोड दर्ज करें</string>
+<!--    <string name="checkinternet">कुछ गलत हो गया। कृपया अपने इंटरनेट कनेक्शन की जाँच करें</string>-->
+    <string name="checkinternet_hindi">कुछ गलत हो गया। कृपया अपने इंटरनेट कनेक्शन की जाँच करें</string>
+    <string name="checkinternet_english">Something went wrong. Please check your internet</string>
+    <string name="checkinternet_gurmukhi">ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ. ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਇੰਟਰਨੈਟ ਦੀ ਜਾਂਚ ਕਰੋ</string>
+    <string name="somethingwentwrong_english">Something went wrong. Please try again.</string>
+    <string name="somethingwentwrong_hindi">कुछ गलत हो गया। कृपया पुन: प्रयास करें</string>
+    <string name="somethingwentwrong_gurmukhi">कਕੁਝ ਗਲਤ ਹੋ ਗਿਆ. ਮੁੜ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ</string>
+    <string name="pleasewaitlogin">कृपया प्रतीक्षा करें। हम डैशबोर्ड पर आगे बढ़ रहे हैंं</string>
+    <string name="addmotherchile">माँ / बच्चे की नई इंट्री करें</string>
+    <string name="updatechild">बच्चे का टीका अपडेट</string>
+    <string name="securitypin">securitypin</string>
+    <string name="isloggedin">isloggedin</string>
+    <string name="nochildfound">कोई बच्चा नहीं मिला</string>
+    <string name="dataalreadyupdated">डेटा पहले से ही कब्जा कर लिया</string>
+    <string name="setting_english">Settings</string>
+    <string name="chooselanguage">Select Your Language</string>
+    <string name="language">language</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_gurmukhi">ਗੁਰਮੁਖੀ</string>
+    <string name="search_hint_english">Search Magazine</string>
+    <string name="search_hint_hindhi">पत्रिका खोजें</string>
+    <string name="search_hint_gurmukhi">ਸਰਚ ਰਸਾਲਾ</string>
+
+
+    <string name="termsandconditions_english">Terms &amp; Conditions</string>
+    <string name="version_english">Version 1.0.0</string>
+    <string name="privacypolicy_english">Privacy Policy</string>
+    <string name="aboutus_english">About</string>
+    <string name="rateus_english">Rate Us</string>
+
+    <string name="termsandconditions_hindi">नियम व शर्तें</string>
+    <string name="versionno_hindi">संस्करण 1.0.0</string>
+    <string name="privacypolicy_hindi">गोपनीयता नीति</string>
+    <string name="aboutus_hindi">के बारे में</string>
+    <string name="rateus_hindi">हमें रेटिंग दें</string>
+
+    <string name="termsandconditions_gurmukhi">ਨਿਯਮ ਅਤੇ ਸਥਿਤੀ</string>
+    <string name="versionno_gurmukhi">ਵਰਜਨ 1.0.0</string>
+    <string name="privacypolicy_gurmukhi">ਪਰਾਈਵੇਟ ਨੀਤੀ</string>
+    <string name="aboutus_gurmukhi">ਬਾਰੇ</string>
+    <string name="rateus_gurmukhi">ਸਾਨੂੰ ਦਰਜਾ ਦਿਓ</string>
+
+    <string name="str_home_english">HOME</string>
+    <string name="str_issues_english">ISSUES</string>
+    <string name="str_article_english">ARTICLE</string>
+    <string name="str_settings_english">SETTINGS</string>
+    <string name="str_recentissues_english">Recent Issues</string>
+    <string name="str_recentarticale_english">Recent Articles</string>
+
+    <string name="str_home_hindi">घर</string>
+    <string name="str_issues_hindi">मुद्दे</string>
+    <string name="str_article_hindi">लेख</string>
+
+    <string name="str_settings_hindi">समायोजन</string>
+    <string name="str_recentissues_hindi">हाल के मुद्दे</string>
+    <string name="str_recentarticale_hindi">हाल का लेख</string>
+
+
+
+    <string name="str_magazine_hindi">पत्रिका</string>
+    <string name="str_magazine_english">Magazines</string>
+    <string name="str_magazine_Gurmukhi">ਰਸਾਲਿਆਂ</string>
+
+    <string name="str_announcement_hindi">घोषणाएँ</string>
+    <string name="str_announcement_english">Announcements</string>
+    <string name="str_announcement_Gurmukhi">ਘੋਸ਼ਣਾ</string>
+
+    <string name="str_home_gurmukhi">ਘਰ</string>
+    <string name="str_issues_gurmukhi">ਮੁੱਦੇ</string>
+    <string name="str_article_gurmukhi">ਲੇਖ</string>
+    <string name="str_settings_gurmukhi">ਸੈਟਿੰਗਜ਼</string>
+    <string name="str_recentissues_gurmukhi">ਹਾਲ ਹੀ ਦੇ ਮੁੱਦੇ</string>
+    <string name="str_recentarticale_gurmukhi">ਤਾਜ਼ਾ ਲੇਖ</string>
+
+
+    <string name="changelanguage_english">Change Language</string>
+    <string name="changelanguage_hindi">भाषा बदलो</string>
+    <string name="changelanguage_gurmukhi">ਭਾਸ਼ਾ ਬਦਲੋ</string>
+    <string name="terms_and_conditions"><![CDATA[Terms & Conditions]]></string>
+    <!--    <string name="mobileno">मोबाइल नंबरं</string>-->
+</resources>
